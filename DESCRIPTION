@@ -1,0 +1,22 @@
+Package: virKra
+Title: Exports viral reads classified by Kraken2 to a Seurat Object.
+Version: 1.0.0
+Authors@R:
+    c(
+        person("Lidia", "Garrido-Sanz", email = "lgarrido@irsicaixa.es", role = c("aut", "cre")),
+        person("Javier", "Martinez-Picado", role = "ctb"),
+        person("Sara", "Morón-López", email = "smoron@irsicaixa.es", role = "aut")
+    )
+Description: This package takes reads from single-cell 10x Chromium system that had been classified by Kraken2 (Wood et al. 2019. DOI: 10.1186/s13059-019-1891-0) and exports the information to a Seurat Object (Hao et al. 2021. DOI: 10.1016/j.cell.2021.04.048).
+Imports:
+    Biostrings,
+    data.table,
+    dplyr,
+    parallel,
+    ShortRead,
+    stringr,
+    tidyr
+License: `use_gpl3_license()`
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
