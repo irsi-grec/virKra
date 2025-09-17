@@ -1,5 +1,6 @@
 <h1 align="left">
   virKra
+  <img src="https://github.com/user-attachments/assets/37f100b7-d653-414a-811f-9131c264f821", align="right" width="100">
 </h1>
 
 **virKra** is an R package devised for importing Kraken2 output (Wood et al. 2019) to a Seurat Object from Seurat R package (Hao et al. 2023). virKra allows identifying individual cells within a Seurat Object whose DNA or RNA has been taxonomically classified by Kraken2.
